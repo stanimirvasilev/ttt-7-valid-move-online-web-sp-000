@@ -1,7 +1,8 @@
 # code your #valid_move? method here
-def valid_move?(position_taken, user_input) 
-  
-
+def valid_move?(board, index) 
+  if position_taken == true && user_input.between?(0, 8) == false
+else
+end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
@@ -13,4 +14,8 @@ def position_taken? (board, index)
   else 
 end
   end
+  
+  
+  
+  
   
